@@ -45,7 +45,8 @@ if (manifestURI) {
       enabled: false,
     },
     windows: [{
-      manifestId: query ? manifestURI + '?q=' + query : manifestURI,
+      manifestId: manifestURI,
+      defaultSearchQuery: query,
       canvasIndex: index,
       imageToolsEnabled: true,
       view: 'single',
