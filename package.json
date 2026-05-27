@@ -1,5 +1,5 @@
 {
-  "name": "umd-viewer",
+  "name": "umd-iiif-viewer",
   "version": "1.0.0-dev",
   "private": true,
   "type": "module",
